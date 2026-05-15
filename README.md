@@ -6,34 +6,34 @@ Statistics PhD by training, tool builder by compulsion. My papers prove theorems
 
 ## Tools I built because I needed them
 
-### [latex2arxiv](https://github.com/YuZh98/latex2arxiv) — arXiv rejected my submission. I automated my revenge.
+### [latex2arxiv](https://github.com/YuZh98/latex2arxiv) — Overleaf gave me 934 files and 80.6 MB. arXiv wanted a clean zip. I wrote the tool.
 
 [![PyPI](https://img.shields.io/pypi/v/latex2arxiv?style=flat-square&color=blue)](https://pypi.org/project/latex2arxiv/)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/latex2arxiv?style=flat-square&label=PyPI%20installs)](https://pypi.org/project/latex2arxiv/)
 [![Homebrew](https://img.shields.io/badge/Homebrew-available-orange?style=flat-square&logo=homebrew&logoColor=white)](https://formulae.brew.sh/formula/latex2arxiv)
 [![Stars](https://img.shields.io/github/stars/YuZh98/latex2arxiv?style=flat-square&logo=github)](https://github.com/YuZh98/latex2arxiv)
 
-arXiv rejected my paper because of a stray `\usepackage{minted}`. I couldn't find a tool that caught every submission-blocking error *before* upload, so I built one. One command turns a messy LaTeX project into a clean, submission-ready zip — it prunes unreachable files, strips draft markup, validates the bibliography, and tells you exactly what will get desk-rejected. There's even an **MCP server** so AI agents can submit papers without leaving their workflow.
+One command takes any LaTeX project — zip, directory, or git URL — and outputs a clean, arXiv-ready zip. It prunes unreachable files (934 → 40 on my own JASA paper), strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that catch rejection-causing errors *before* you upload: `\usepackage{minted}`, stray `.eps` images, broken `\printindex` — things arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste metadata. There's also an **MCP server** so AI agents can trigger the whole pipeline without leaving the chat.
 
 `Python` `CLI` `PyPI` `Homebrew` `GitHub Actions` `pre-commit` `MCP`
 
 ---
 
-### [academic-application-tracker](https://github.com/YuZh98/academic-application-tracker) — 47 applications, 12 recommenders, zero missed deadlines.
+### [academic-application-tracker](https://github.com/YuZh98/academic-application-tracker) — answers one question every morning: *what do I do today?*
 
 [![Stars](https://img.shields.io/github/stars/YuZh98/academic-application-tracker?style=flat-square&logo=github)](https://github.com/YuZh98/academic-application-tracker)
 
-I had 47 job applications, 12 recommenders, and deadlines stacking up like a queue with no consumer. I built the dashboard I needed: everything in one place, deadline urgency banded by color, recommender alerts, interview logs, daily action items auto-computed. 800+ tests at 97% coverage — because I actually trust it with my real job search.
+I had 47 job applications, 12 recommenders, and deadlines stacking up like a queue with no consumer. I built the Streamlit dashboard I needed: KPI grid, urgency-banded deadlines, per-position recommender state (one person × seven positions = seven independent statuses), materials readiness panel, interview log, and daily action items auto-computed. The database auto-exports plaintext markdown backups on every write. 800+ tests at 97% coverage — because I actually trust it with my real job search.
 
-`Python` `CLI` `pytest`
+`Python` `Streamlit` `SQLite` `pytest`
 
 ---
 
-### [python-project-scaffold](https://github.com/YuZh98/python-project-scaffold) — because I was tired of spending hour one of every project not writing code.
+### [python-project-scaffold](https://github.com/YuZh98/python-project-scaffold) — skip the 30-minute setup ritual and start at your first feature commit.
 
 [![Stars](https://img.shields.io/github/stars/YuZh98/python-project-scaffold?style=flat-square&logo=github)](https://github.com/YuZh98/python-project-scaffold)
 
-Every new Python project starts with the same 3-hour ritual: wire up ruff, pyright, pytest, CI matrix, coverage gate, pre-commit, Dependabot, ADRs... I got annoyed and automated all of it. One click on *Use this template* and you're writing real code. Ships with a `/new-project` Claude Code skill that creates the GitHub repo and sets up branch protection — because even the setup should be one command.
+Every new Python project starts with the same 30-minute ritual: wire up ruff, pyright, pytest, CI matrix, coverage gate, pre-commit, Dependabot, ADRs... I automated all of it. One click on *Use this template* + one `python3 scripts/init-project.py` and you have a green-CI repo ready for your first feature. Ships with a `/new-project` Claude Code skill that creates the GitHub repo and sets up branch protection — because even the setup should be one command.
 
 `Python` `GitHub Actions` `Claude Code` `pre-commit`
 
