@@ -23,7 +23,7 @@ One command takes any LaTeX project — zip, directory, or git URL — and outpu
 
 [![Stars](https://img.shields.io/github/stars/YuZh98/academic-application-tracker?style=flat-square&logo=github)](https://github.com/YuZh98/academic-application-tracker)
 
-I had 47 job applications, 12 recommenders, and deadlines stacking up like a queue with no consumer. I built the Streamlit dashboard I needed: KPI grid, urgency-banded deadlines, per-position recommender state (one person × seven positions = seven independent statuses), materials readiness panel, interview log, and daily action items auto-computed. The database auto-exports plaintext markdown backups on every write. 800+ tests at 97% coverage — because I actually trust it with my real job search.
+Academic job searching is chaos: overlapping deadlines, multiple recommenders per position, materials checklists that differ by institution. I built the Streamlit dashboard that cuts through it — urgency-banded deadlines, per-position recommender state, materials readiness panel, interview log, and daily action items auto-computed. The database auto-exports plaintext markdown backups on every write. 800+ tests at 97% coverage — because I actually trust it with my real job search.
 
 `Python` `Streamlit` `SQLite` `pytest`
 
