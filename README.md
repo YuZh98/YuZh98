@@ -6,20 +6,20 @@ Statistics PhD by training, tool builder by compulsion. My papers prove theorems
 
 ## Tools I built because I needed them
 
-### [latex2arxiv](https://github.com/YuZh98/latex2arxiv) — Overleaf gave me 934 files and 80.6 MB. arXiv wanted a clean zip. I wrote the tool.
+### [latex2arxiv](https://github.com/YuZh98/latex2arxiv) — Submit to arXiv without the headache. One command cleans your LaTeX project, catches rejection-causing errors, and walks you through the upload.
 
 [![PyPI](https://img.shields.io/pypi/v/latex2arxiv?style=flat-square&color=blue)](https://pypi.org/project/latex2arxiv/)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/latex2arxiv?style=flat-square&label=PyPI%20installs)](https://pypi.org/project/latex2arxiv/)
 [![Homebrew](https://img.shields.io/badge/Homebrew-available-orange?style=flat-square&logo=homebrew&logoColor=white)](https://formulae.brew.sh/formula/latex2arxiv)
 [![Stars](https://img.shields.io/github/stars/YuZh98/latex2arxiv?style=flat-square&logo=github)](https://github.com/YuZh98/latex2arxiv)
 
-One command takes any LaTeX project — zip, directory, or git URL — and outputs a clean, arXiv-ready zip. It prunes unreachable files (934 → 40 on my own JASA paper), strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that catch rejection-causing errors *before* you upload: `\usepackage{minted}`, stray `.eps` images, broken `\printindex` — things arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste metadata. There's also an **MCP server** so AI agents can trigger the whole pipeline without leaving the chat.
+Takes any LaTeX project — zip, directory, or git URL — and outputs a submission-ready zip. Prunes unreachable files, strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that surface errors arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste title/authors/abstract. Gate your paper repo on compliance with `--dry-run` in CI. There's also an **MCP server** so AI agents can run the full pipeline without leaving the chat.
 
 `Python` `CLI` `PyPI` `Homebrew` `GitHub Actions` `pre-commit` `MCP`
 
 ---
 
-### [academic-application-tracker](https://github.com/YuZh98/academic-application-tracker) — answers one question every morning: *what do I do today?*
+### [academic-application-tracker](https://github.com/YuZh98/academic-application-tracker) — Local Streamlit dashboard that answers "what do I do today?" for academics juggling dozens of applications, deadlines, and recommendation letters.
 
 [![Stars](https://img.shields.io/github/stars/YuZh98/academic-application-tracker?style=flat-square&logo=github)](https://github.com/YuZh98/academic-application-tracker)
 
