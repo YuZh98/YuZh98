@@ -23,7 +23,7 @@ Takes any LaTeX project — zip, directory, or git URL — and outputs a submiss
 
 [![Stars](https://img.shields.io/github/stars/YuZh98/academic-application-tracker?style=flat-square&logo=github)](https://github.com/YuZh98/academic-application-tracker)
 
-Academic job searching is chaos: overlapping deadlines, multiple recommenders per position, materials checklists that differ by institution. I built the Streamlit dashboard that cuts through it — urgency-banded deadlines, per-position recommender state, materials readiness panel, interview log, and daily action items auto-computed. The database auto-exports plaintext markdown backups on every write. 800+ tests at 97% coverage — because I actually trust it with my real job search.
+Academic job searching is chaos: overlapping deadlines, multiple recommenders per position, materials checklists that differ by institution. I built the Streamlit dashboard that cuts through it — urgency-banded deadlines, per-position recommender state, materials readiness panel, interview log, and daily action items auto-computed. The database auto-exports plaintext markdown backups on every write. 800+ tests at 97% coverage — because I actually use it on my own applications.
 
 `Python` `Streamlit` `SQLite` `pytest`
 
@@ -48,13 +48,13 @@ Bayesian inference for structured data is my obsession. When your data is a rank
 - [JASA](https://arxiv.org/abs/2504.11630) *(major revision — strong acceptance signal)* — Bayesian regression over combinatorial response data via integer programming duality
 - [Bernoulli](https://arxiv.org/abs/2409.19129) *(major revision, 2nd round)* — first consistency guarantee for graph-based clustering under model misspecification
 
+**Research code:** [VAE-fMRI-Alzheimer](https://github.com/YuZh98/VAE-fMRI-Alzheimer) — 3D-convolutional VAE for Alzheimer's fMRI; CUDA training on HiPerGator, 36 unit tests, 18 tutorial notebooks.
+
 ---
 
 ## Currently building
 
-🦀 **[itch-tools](https://github.com/YuZh98/itch-tools)** — NASDAQ ITCH 5.0 parser in Rust. Raw binary → L1 order book → NBBO timeline. Built for 1M+ messages/sec throughput.
-
-📝 Writing up dissertation (UF Statistics, Aug 2026)
+🦀 **LOBSTER-tools** — LOBSTER limit-order-book parser in Rust. Reconstructs L1/L2 book state and event-level features from raw message+orderbook CSVs. Built for high-throughput backtesting workflows. *(Repo goes public when v0.1 ships.)*
 
 ---
 
