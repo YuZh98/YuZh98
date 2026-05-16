@@ -53,12 +53,6 @@ Bayesian inference for structured data is my obsession. When your data is a rank
 
 ---
 
-## Currently building
-
-🦀 **LOBSTER-tools**, a LOBSTER limit-order-book parser in Rust. Reconstructs L1/L2 book state and event-level features from raw message+orderbook CSVs. Built for high-throughput backtesting workflows. *(Repo goes public when v0.1 ships.)*
-
----
-
 ## Stack
 
 <p>
