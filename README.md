@@ -11,11 +11,12 @@ Statistics PhD by training, tool builder by compulsion. My papers prove theorems
 [![PyPI](https://img.shields.io/pypi/v/latex2arxiv?style=flat-square&color=blue)](https://pypi.org/project/latex2arxiv/)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/latex2arxiv?style=flat-square&label=PyPI%20installs)](https://pypi.org/project/latex2arxiv/)
 [![Homebrew](https://img.shields.io/badge/Homebrew-available-orange?style=flat-square&logo=homebrew&logoColor=white)](https://formulae.brew.sh/formula/latex2arxiv)
+[![VS Code](https://img.shields.io/visual-studio-marketplace/v/YuZh98.latex2arxiv?style=flat-square&label=VS%20Code&logo=visualstudiocode&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv)
 [![Stars](https://img.shields.io/github/stars/YuZh98/latex2arxiv?style=flat-square&logo=github)](https://github.com/YuZh98/latex2arxiv)
 
-Takes any LaTeX project — zip, directory, or git URL — and outputs a submission-ready zip. Prunes unreachable files, strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that surface errors arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste title/authors/abstract. Gate your paper repo on compliance with `--dry-run` in CI. There's also an **MCP server** so AI agents can run the full pipeline without leaving the chat.
+Takes any LaTeX project — zip, directory, or git URL — and outputs a submission-ready zip. Prunes unreachable files, strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that surface errors arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste title/authors/abstract. Gate your paper repo on compliance with `--dry-run` in CI. Also ships as a **VS Code extension** and an **MCP server** so AI agents can run the full pipeline without leaving the chat.
 
-`Python` `CLI` `PyPI` `Homebrew` `GitHub Actions` `pre-commit` `MCP`
+`Python` `CLI` `PyPI` `Homebrew` `VS Code` `GitHub Actions` `pre-commit` `MCP`
 
 ---
 
