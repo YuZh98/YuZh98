@@ -1,6 +1,6 @@
 # Hi, I'm Hugh 👋
 
-Statistics PhD by training, tool builder by compulsion. My papers prove theorems and my side projects automate the things that were making me miserable. I find it genuinely hard to leave a solvable problem unsolved — and I've made peace with that.
+Statistics PhD by training, tool builder by compulsion. My papers propose scalable algorithms and prove theorems, and my side projects aim to develop helpful tools for people. I find it genuinely hard to leave a solvable problem unsolved, and I dislike doing repetitive work because it lowers efficiency.
 
 ---
 
