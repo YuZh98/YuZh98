@@ -12,6 +12,7 @@ Statistics PhD by training, tool builder by compulsion. My papers propose scalab
 [![PyPI Downloads](https://img.shields.io/pypi/dm/latex2arxiv?style=flat-square&label=PyPI%20installs)](https://pypi.org/project/latex2arxiv/)
 [![Homebrew](https://img.shields.io/badge/Homebrew-available-orange?style=flat-square&logo=homebrew&logoColor=white)](https://formulae.brew.sh/formula/latex2arxiv)
 [![VS Code](https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?style=flat-square&logo=vscodium&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv)
+[![Rating](https://img.shields.io/badge/rating-★★★★★-007ACC?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv&ssr=false#review-details)
 [![Stars](https://img.shields.io/github/stars/YuZh98/latex2arxiv?style=flat-square&logo=github)](https://github.com/YuZh98/latex2arxiv)
 
 Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-ready zip. Prunes unreachable files, strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that surface errors arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste title/authors/abstract. Gate your paper repo on compliance with `--dry-run` in CI. Also ships as a **VS Code extension** and an **MCP server** so AI agents can run the full pipeline without leaving the chat.
