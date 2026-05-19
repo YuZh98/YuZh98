@@ -22,8 +22,6 @@ Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-re
 
 ### [academic-application-tracker](https://github.com/YuZh98/academic-application-tracker): Local Streamlit dashboard that answers "what do I do today?" for academics juggling dozens of applications, deadlines, and recommendation letters.
 
-[![Stars](https://img.shields.io/github/stars/YuZh98/academic-application-tracker?style=flat-square&logo=github)](https://github.com/YuZh98/academic-application-tracker)
-
 Academic job searching is chaos: overlapping deadlines, multiple recommenders per position, materials checklists that differ by institution. I built the Streamlit dashboard that cuts through it: urgency-banded deadlines, per-position recommender state, materials readiness panel, interview log, and daily action items auto-computed. The database auto-exports plaintext markdown backups on every write. 800+ tests at 97% coverage, because I actually use it on my own applications.
 
 `Python` `Streamlit` `SQLite` `pytest`
@@ -31,8 +29,6 @@ Academic job searching is chaos: overlapping deadlines, multiple recommenders pe
 ---
 
 ### [python-project-scaffold](https://github.com/YuZh98/python-project-scaffold): Skip the 30-minute setup ritual and start at your first feature commit.
-
-[![Stars](https://img.shields.io/github/stars/YuZh98/python-project-scaffold?style=flat-square&logo=github)](https://github.com/YuZh98/python-project-scaffold)
 
 Every new Python project starts with the same 30-minute ritual: wire up ruff, pyright, pytest, CI matrix, coverage gate, pre-commit, Dependabot, ADRs... I automated all of it. One click on *Use this template* + one `python3 scripts/init-project.py` and you have a green-CI repo ready for your first feature. Ships with a `/new-project` Claude Code skill that creates the GitHub repo and sets up branch protection, because even the setup should be one command.
 
