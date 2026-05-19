@@ -23,10 +23,6 @@ Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-re
 ### [academic-application-tracker](https://github.com/YuZh98/academic-application-tracker): Local Streamlit dashboard that answers "what do I do today?" for academics juggling dozens of applications, deadlines, and recommendation letters.
 
 [![Stars](https://img.shields.io/github/stars/YuZh98/academic-application-tracker?style=flat-square&logo=github)](https://github.com/YuZh98/academic-application-tracker)
-[![CI](https://github.com/YuZh98/academic-application-tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/YuZh98/academic-application-tracker/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.11%E2%80%933.14-blue?style=flat-square)](https://github.com/YuZh98/academic-application-tracker)
-[![Coverage](https://img.shields.io/badge/coverage-97%25-brightgreen?style=flat-square)](https://github.com/YuZh98/academic-application-tracker)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/YuZh98/academic-application-tracker/blob/main/LICENSE)
 
 Academic job searching is chaos: overlapping deadlines, multiple recommenders per position, materials checklists that differ by institution. I built the Streamlit dashboard that cuts through it: urgency-banded deadlines, per-position recommender state, materials readiness panel, interview log, and daily action items auto-computed. The database auto-exports plaintext markdown backups on every write. 800+ tests at 97% coverage, because I actually use it on my own applications.
 
