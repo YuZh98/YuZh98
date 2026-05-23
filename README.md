@@ -43,8 +43,8 @@ Bayesian inference for structured data is my obsession. When your data is a rank
 
 **Three first-author papers:**
 - [JCGS 2025](https://www.tandfonline.com/doi/abs/10.1080/10618600.2025.2473932) *(published)*: blocked Gibbs sampler with anti-correlation Gaussian data augmentation; 23–67× faster than NUTS (the industry-standard sampler) with a geometric ergodicity proof
-- [JASA](https://arxiv.org/abs/2504.11630) *(major revision)*: Bayesian regression over combinatorial response data via integer programming duality
-- [Bernoulli](https://arxiv.org/abs/2409.19129) *(major revision, 2nd round)*: first consistency guarantee for graph-based clustering under model misspecification
+- [JASA](https://arxiv.org/abs/2504.11630) *(revision submitted)*: Bayesian regression over combinatorial response data via integer programming duality
+- [Bernoulli](https://arxiv.org/abs/2409.19129) *(revision submitted)*: first consistency guarantee for graph-based clustering under model misspecification
 
 **Research code:** [VAE-fMRI-Alzheimer](https://github.com/YuZh98/VAE-fMRI-Alzheimer), a 3D-convolutional VAE for Alzheimer's fMRI. CUDA training on HiPerGator, 36 unit tests, 18 tutorial notebooks.
 
