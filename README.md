@@ -42,11 +42,11 @@ Every new Python project starts with the same 30-minute ritual: wire up ruff, py
 Bayesian inference for structured data is my obsession. When your data is a ranking, a graph partition, or an integer array under hard constraints, standard inference breaks. My work builds algorithms that don't: I prove they converge, derive consistency conditions, and ship the code to show they run fast.
 
 **Three first-author papers:**
-- [JCGS 2025](https://www.tandfonline.com/doi/abs/10.1080/10618600.2025.2473932) *(published)*: blocked Gibbs sampler with anti-correlation Gaussian data augmentation; 23–67× faster than NUTS (the industry-standard sampler) with a geometric ergodicity proof
-- [JASA](https://arxiv.org/abs/2504.11630) *(revision submitted)*: Bayesian regression over combinatorial response data via integer programming duality
-- [Bernoulli](https://arxiv.org/abs/2409.19129) *(revision submitted)*: first consistency guarantee for graph-based clustering under model misspecification
+- [JCGS 2025](https://www.tandfonline.com/doi/abs/10.1080/10618600.2025.2473932) *(published)*: blocked Gibbs sampler with anti-correlation Gaussian data augmentation; 23 to 67 times faster than NUTS (the industry-standard sampler) with a geometric ergodicity proof. [Code: Anti-correlation-Gaussian](https://github.com/YuZh98/Anti-correlation-Gaussian).
+- [JASA](https://arxiv.org/abs/2504.11630) *(revision submitted)*: Bayesian regression over combinatorial response data via integer programming duality. [Code: combinatorial-regression](https://github.com/YuZh98/combinatorial-regression), a multi-language reproducibility pipeline (R + Rcpp inner loops, JAX/NumPyro baselines, Makefile-orchestrated).
+- [Bernoulli](https://arxiv.org/abs/2409.19129) *(revision submitted)*: first consistency guarantee for graph-based clustering under model misspecification.
 
-**Research code:** [VAE-fMRI-Alzheimer](https://github.com/YuZh98/VAE-fMRI-Alzheimer), a 3D-convolutional VAE for Alzheimer's fMRI. CUDA training on HiPerGator, 36 unit tests, 18 tutorial notebooks.
+**More research code:** [VAE-fMRI-Alzheimer](https://github.com/YuZh98/VAE-fMRI-Alzheimer), a 3D-convolutional VAE for Alzheimer's fMRI. CUDA training on HiPerGator, 36 unit tests, 18 tutorial notebooks.
 
 ---
 
@@ -62,7 +62,8 @@ Bayesian inference for structured data is my obsession. When your data is a rank
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
   <img src="https://img.shields.io/badge/PyPI-3775A9?style=flat-square&logo=pypi&logoColor=white" alt="PyPI">
   <img src="https://img.shields.io/badge/Homebrew-FBB040?style=flat-square&logo=homebrew&logoColor=white" alt="Homebrew">
-  <img src="https://img.shields.io/badge/HiPerGator-Slurm-blue?style=flat-square" alt="HiPerGator/Slurm">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Slurm%2FHPC-2C5BB4?style=flat-square" alt="Slurm/HPC">
 </p>
 
 ---
