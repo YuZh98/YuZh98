@@ -39,7 +39,9 @@ Every new Python project starts with the same 30-minute ritual: wire up ruff, py
 
 ## Research
 
-Bayesian inference for structured data is my obsession. When your data is a ranking, a graph partition, or an integer array under hard constraints, standard inference breaks. My work builds algorithms that don't: I prove they converge, derive consistency conditions, and ship the code to show they run fast.
+I've always enjoyed working on statistical problems that are mathematically challenging and scientifically motivated. I am in particular intrigued by problems where the data or the quantity of interest is combinatorial: some or all coordinates of the observation take values in a discrete, structured set rather than in Euclidean space. The loss of Euclidean geometry brings
+simultaneous challenges in probabilistic modeling, mathematical theory, and scalable computation. The central question organizing my research is: 
+**How can we develop Bayesian methodology with theoretical guarantees for problems that are combinatorial in structure, and how do those methods behave on real scientific data?**
 
 **Three first-author papers:**
 - [JCGS 2025](https://www.tandfonline.com/doi/abs/10.1080/10618600.2025.2473932) *(published)*: blocked Gibbs sampler with anti-correlation Gaussian data augmentation; 23 to 67 times faster than NUTS (the industry-standard sampler) with a geometric ergodicity proof. [Code: Anti-correlation-Gaussian](https://github.com/YuZh98/Anti-correlation-Gaussian).
