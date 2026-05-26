@@ -23,9 +23,14 @@ Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-re
 
 ### [academic-application-tracker](https://github.com/YuZh98/academic-application-tracker): Local Streamlit dashboard that answers "what do I do today?" for academics juggling dozens of applications, deadlines, and recommendation letters.
 
-Academic job searching is chaos: overlapping deadlines, multiple recommenders per position, materials checklists that differ by institution. I built the Streamlit dashboard that cuts through it: urgency-banded deadlines, per-position recommender state, materials readiness panel, interview log, and daily action items auto-computed. The database auto-exports plaintext markdown backups on every write. 800+ tests at 97% coverage, because I actually use it on my own applications.
+[![CI](https://github.com/YuZh98/academic-application-tracker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/YuZh98/academic-application-tracker/actions/workflows/ci.yml)
+[![Live demo](https://img.shields.io/badge/demo-live-E63946?style=flat-square)](https://academic-application-tracker.streamlit.app)
+[![Python](https://img.shields.io/badge/python-3.11%E2%80%933.14-blue?style=flat-square)](https://github.com/YuZh98/academic-application-tracker/blob/main/pyproject.toml)
+[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen?style=flat-square)](https://github.com/YuZh98/academic-application-tracker/blob/main/pyproject.toml)
 
-`Python` `Streamlit` `SQLite` `pytest`
+Academic job searching is chaos: overlapping deadlines, multiple recommenders per position, materials checklists that differ by institution. I built the Streamlit dashboard that cuts through it: urgency-banded deadlines, per-position recommender state, materials readiness panel, interview log, and daily action items auto-computed. [**Try the live demo**](https://academic-application-tracker.streamlit.app) — no install, each session gets its own sandbox. 1000+ tests at 95% coverage, because I actually use it on my own applications.
+
+`Python` `Streamlit` `SQLite` `pytest` `Plotly`
 
 ---
 
