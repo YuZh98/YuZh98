@@ -30,7 +30,7 @@ Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-re
 [![Python](https://img.shields.io/badge/python-3.11%E2%80%933.14-blue?style=flat-square)](https://github.com/YuZh98/academic-application-tracker/blob/main/pyproject.toml)
 [![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen?style=flat-square)](https://github.com/YuZh98/academic-application-tracker/blob/main/pyproject.toml)
 
-Academic job searching is chaos: overlapping deadlines, multiple recommenders per position, materials checklists that differ by institution. I built the Streamlit dashboard that cuts through it: urgency-banded deadlines, per-position recommender state, materials readiness panel, interview log, and daily action items auto-computed. [**Try the live demo**](https://academic-application-tracker.streamlit.app) — no install, each session gets its own sandbox. 1000+ tests at 95% coverage, because I actually use it on my own applications.
+Academic job searching is chaos. Overlapping deadlines, three recommenders per position, every institution wanting the materials checklist in a different shape. Halfway through last cycle I gave up on spreadsheets and built the Streamlit dashboard I actually needed — urgency-banded deadlines, recommender state per position, an interview log, and a daily action list auto-computed from what's still open. [**Try the live demo**](https://academic-application-tracker.streamlit.app): no install, each session gets its own sandbox. 1000+ tests at 95% coverage, because I'm running it against my own applications and I can't afford it eating a deadline.
 
 `Python` `Streamlit` `SQLite` `pytest` `Plotly`
 
