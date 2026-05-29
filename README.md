@@ -9,15 +9,17 @@ Statistics PhD by training, tool builder by compulsion. My papers propose scalab
 ### [latex2arxiv](https://github.com/YuZh98/latex2arxiv): Submit to arXiv without the headache. One command cleans your LaTeX project, catches rejection-causing errors, and walks you through the upload.
 
 [![PyPI](https://img.shields.io/pypi/v/latex2arxiv?style=flat-square&color=blue)](https://pypi.org/project/latex2arxiv/)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/latex2arxiv?style=flat-square&label=PyPI%20installs)](https://pypi.org/project/latex2arxiv/)
-[![Homebrew](https://img.shields.io/badge/Homebrew-available-orange?style=flat-square&logo=homebrew&logoColor=white)](https://formulae.brew.sh/formula/latex2arxiv)
-[![VS Code](https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?style=flat-square&logo=vscodium&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv)
-[![Rating](https://img.shields.io/badge/rating-★★★★★-007ACC?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv&ssr=false#review-details)
+[![Downloads](https://static.pepy.tech/badge/latex2arxiv?style=flat-square)](https://pepy.tech/project/latex2arxiv)
+[![Homebrew](https://img.shields.io/badge/Homebrew-tap-orange?style=flat-square&logo=homebrew&logoColor=white)](https://github.com/YuZh98/homebrew-latex2arxiv)
+[![VS Code](https://img.shields.io/visual-studio-marketplace/v/YuZh98.latex2arxiv?style=flat-square&label=VS%20Code&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv)
+[![MCP](https://img.shields.io/badge/MCP-server-8A2BE2?style=flat-square)](https://github.com/YuZh98/latex2arxiv/blob/main/docs/mcp.md)
+<!-- UPDATE on CWS approval: replace with the Chrome Web Store badge -->
+[![Chrome extension](https://img.shields.io/badge/Chrome%20extension-in%20review-orange?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/YuZh98/latex2arxiv/tree/main/browser-extension)
 [![Stars](https://img.shields.io/github/stars/YuZh98/latex2arxiv?style=flat-square&logo=github)](https://github.com/YuZh98/latex2arxiv)
 
-Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-ready zip. Prunes unreachable files, strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that surface errors arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste title/authors/abstract. Gate your paper repo on compliance with `--dry-run` in CI. Also ships as a **VS Code extension** and an **MCP server** so AI agents can run the full pipeline without leaving the chat.
+Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-ready zip. Prunes unreachable files, strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that surface errors arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste title/authors/abstract. Gate your paper repo on compliance with `--dry-run` in CI. Same pipeline runs in **five surfaces** — terminal, **Chrome extension for Overleaf** (zero install, in Web Store review), VS Code, MCP server (Claude/Cursor/Copilot/Windsurf/Zed), and GitHub Action.
 
-`Python` `CLI` `PyPI` `Homebrew` `VS Code` `GitHub Actions` `pre-commit` `MCP`
+`Python` `CLI` `PyPI` `Homebrew` `Chrome extension` `VS Code` `GitHub Actions` `pre-commit` `MCP`
 
 ---
 
