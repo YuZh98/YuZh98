@@ -13,11 +13,10 @@ Statistics PhD by training, tool builder by compulsion. My papers propose scalab
 [![Homebrew](https://img.shields.io/badge/Homebrew-tap-orange?style=flat-square&logo=homebrew&logoColor=white)](https://github.com/YuZh98/homebrew-latex2arxiv)
 [![VS Code](https://img.shields.io/visual-studio-marketplace/v/YuZh98.latex2arxiv?style=flat-square&label=VS%20Code&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv)
 [![MCP](https://img.shields.io/badge/MCP-server-8A2BE2?style=flat-square)](https://github.com/YuZh98/latex2arxiv/blob/main/docs/mcp.md)
-<!-- UPDATE on CWS approval: replace with the Chrome Web Store badge -->
-[![Chrome extension](https://img.shields.io/badge/Chrome%20extension-in%20review-orange?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/YuZh98/latex2arxiv/tree/main/browser-extension)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/oeaoajmhcmlgdbeacnpkcofodekkpeab?style=flat-square&label=Chrome&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/latex2arxiv-for-overleaf/oeaoajmhcmlgdbeacnpkcofodekkpeab)
 [![Stars](https://img.shields.io/github/stars/YuZh98/latex2arxiv?style=flat-square&logo=github)](https://github.com/YuZh98/latex2arxiv)
 
-Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-ready zip. Prunes unreachable files, strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that surface errors arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste title/authors/abstract. Gate your paper repo on compliance with `--dry-run` in CI. Same pipeline runs in **five surfaces** — terminal, **Chrome extension for Overleaf** (zero install, in Web Store review), VS Code, MCP server (Claude/Cursor/Copilot/Windsurf/Zed), and GitHub Action.
+Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-ready zip. Prunes unreachable files, strips draft markup and revision commands, normalizes BibTeX, and runs pre-flight checks that surface errors arXiv silently fails on. Pass `--guide` and it writes a step-by-step upload walkthrough with copy-paste title/authors/abstract. Gate your paper repo on compliance with `--dry-run` in CI. Same pipeline runs in **five surfaces** — terminal, **[Chrome extension for Overleaf](https://chromewebstore.google.com/detail/latex2arxiv-for-overleaf/oeaoajmhcmlgdbeacnpkcofodekkpeab)** (zero install, runs in-browser), VS Code, MCP server (Claude/Cursor/Copilot/Windsurf/Zed), and GitHub Action.
 
 `Python` `CLI` `PyPI` `Homebrew` `Chrome extension` `VS Code` `GitHub Actions` `pre-commit` `MCP`
 
@@ -36,11 +35,15 @@ Academic job searching is chaos. Overlapping deadlines, three recommenders per p
 
 ---
 
-### [python-project-scaffold](https://github.com/YuZh98/python-project-scaffold): Skip the 30-minute setup ritual and start at your first feature commit.
+### [latex2ufdissertation](https://github.com/YuZh98/latex2ufdissertation): A safety-net validator for UF doctoral dissertations.
 
-Every new Python project starts with the same 30-minute ritual: wire up ruff, pyright, pytest, CI matrix, coverage gate, pre-commit, Dependabot, ADRs... I automated all of it. One click on *Use this template* + one `python3 scripts/init-project.py` and you have a green-CI repo ready for your first feature. Ships with a `/new-project` Claude Code skill that creates the GitHub repo and sets up branch protection, because even the setup should be one command.
+[![CI](https://github.com/YuZh98/latex2ufdissertation/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/YuZh98/latex2ufdissertation/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/YuZh98/latex2ufdissertation/blob/main/LICENSE)
+[![Python: 3.10+](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)](https://www.python.org/downloads/)
 
-`Python` `GitHub Actions` `Claude Code` `pre-commit`
+UF's Editorial Office rejects dissertations for mechanical formatting violations — margins, fonts, heading styles — that are tedious to catch by eye. I built a validator that takes your project (zip, directory, git URL, or compiled PDF), checks it against the documented UF rules, and produces a severity-tiered report citing the originating rule for each finding. Includes a bundled demo dissertation that passes every check, doubling as a teaching reference. Ships with `--init` to scaffold a new project from the UF template.
+
+`Python` `CLI` `LaTeX` `LuaLaTeX`
 
 ---
 
