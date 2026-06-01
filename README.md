@@ -11,7 +11,7 @@ Statistics PhD by training, tool builder by compulsion. My papers propose scalab
 [![PyPI](https://img.shields.io/pypi/v/latex2arxiv?style=flat-square&color=blue)](https://pypi.org/project/latex2arxiv/)
 [![Downloads](https://static.pepy.tech/badge/latex2arxiv?style=flat-square)](https://pepy.tech/project/latex2arxiv)
 [![Homebrew](https://img.shields.io/badge/Homebrew-tap-orange?style=flat-square&logo=homebrew&logoColor=white)](https://github.com/YuZh98/homebrew-latex2arxiv)
-[![VS Code](https://img.shields.io/visual-studio-marketplace/v/YuZh98.latex2arxiv?style=flat-square&label=VS%20Code&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv)
+[![VS Code](https://vsmarketplacebadges.dev/version-short/YuZh98.latex2arxiv.svg?style=flat-square&label=VS%20Code&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv)
 [![MCP](https://img.shields.io/badge/MCP-server-8A2BE2?style=flat-square)](https://github.com/YuZh98/latex2arxiv/blob/main/docs/mcp.md)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/oeaoajmhcmlgdbeacnpkcofodekkpeab?style=flat-square&label=Chrome&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/latex2arxiv-for-overleaf/oeaoajmhcmlgdbeacnpkcofodekkpeab)
 [![Stars](https://img.shields.io/github/stars/YuZh98/latex2arxiv?style=flat-square&logo=github)](https://github.com/YuZh98/latex2arxiv)
