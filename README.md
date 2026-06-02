@@ -45,6 +45,16 @@ UF's Editorial Office rejects dissertations for mechanical formatting violations
 
 `Python` `CLI` `LaTeX` `LuaLaTeX`
 
+### [quant-prep-terminal](https://github.com/YuZh98/quant-prep-terminal): An offline, single-file study cockpit for quant-finance interviews — learn, drill, and simulate in one HTML file.
+
+[![Live demo](https://img.shields.io/badge/demo-live-27ff9e?style=flat-square&logo=githubpages&logoColor=white)](https://yuzh98.github.io/quant-prep-terminal/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-yellow?style=flat-square)](https://github.com/YuZh98/quant-prep-terminal/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/YuZh98/quant-prep-terminal?style=flat-square&logo=github)](https://github.com/YuZh98/quant-prep-terminal)
+
+Quant interview prep scatters across six PDFs, half-remembered formulas, and a flashcard app that paywalls your own notes, so I built the whole study loop into one file I control. Eleven domains of example-filled cheatsheets, 100+ searchable flashcards you can pin, archive, and mark done as you drill, and a Lab with a Black–Scholes payoff explorer and an in-browser Python sandbox for checking probability answers by simulation. Add your own subjects, cards, and sheets in the Workshop — everything persists in the browser, no account, no backend. [**Open the live app**](https://yuzh98.github.io/quant-prep-terminal/): nothing to install, runs from a single `index.html`.
+
+`HTML` `JavaScript` `Pyodide` `GitHub Pages`
+
 ---
 
 ## Research
