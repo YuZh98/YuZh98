@@ -24,6 +24,17 @@ Takes any LaTeX project (zip, directory, or git URL) and outputs a submission-re
 A safety-net validator for UF doctoral dissertations submission using the University of Florida LaTeX template. Given a project archive, project directory, git URL, or compiled PDF, it produces a severity-tiered report citing the originating UF rule for each finding. 
 
 
+### [NoteBuilder](https://github.com/YuZh98/notebuilder):
+
+[![Release](https://img.shields.io/github/v/release/YuZh98/notebuilder?style=flat-square&label=release)](https://github.com/YuZh98/notebuilder/releases/latest)
+[![Download](https://img.shields.io/badge/Download-DMG-brightgreen?style=flat-square&logo=apple&logoColor=white)](https://github.com/YuZh98/notebuilder/releases/latest)
+[![Live demo](https://img.shields.io/badge/demo-live-2b786e?style=flat-square)](https://yuzh98.github.io/notebuilder/demo/percent-change.html)
+
+
+A local-first macOS app (Svelte 5, TypeScript, Tauri 2, SQLite) for interactive study notebooks. Build lessons from live cards and share them as one offline file that remembers each reader's progress. [**Try a lesson in your browser**](https://yuzh98.github.io/notebuilder/demo/percent-change.html): no install. [Website](https://yuzh98.github.io/notebuilder/).
+
+
+
 ### [academic-application-tracker](https://github.com/YuZh98/academic-application-tracker): 
 
 Local Streamlit dashboard that answers "what do I do today?" for academics juggling dozens of applications, deadlines, and recommendation letters. [**Try the live demo**](https://academic-application-tracker.streamlit.app): no install, each session gets its own sandbox.
