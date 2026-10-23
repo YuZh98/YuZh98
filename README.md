@@ -12,7 +12,7 @@ Statistics PhD by training, tool builder by compulsion. My research focuses on c
 [![Downloads](https://static.pepy.tech/badge/latex2arxiv?style=flat-square)](https://pepy.tech/project/latex2arxiv)
 [![Homebrew](https://img.shields.io/badge/Homebrew-tap-orange?style=flat-square&logo=homebrew&logoColor=white)](https://github.com/YuZh98/homebrew-latex2arxiv)
 [![VS Code](https://vsmarketplacebadges.dev/version-short/YuZh98.latex2arxiv.svg?style=flat-square&label=VS%20Code&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=YuZh98.latex2arxiv)
-[![MCP](https://img.shields.io/badge/MCP-server-8A2BE2?style=flat-square)](https://github.com/YuZh98/latex2arxiv/blob/main/docs/mcp.md)
+[![MCP](https://img.shields.io/badge/MCP-server-8A2BE2?style=flat-square)](https://github.com/YuZh98/latex2arxiv/blob/main/materials/mcp.md)
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/oeaoajmhcmlgdbeacnpkcofodekkpeab?style=flat-square&label=Chrome&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/latex2arxiv-for-overleaf/oeaoajmhcmlgdbeacnpkcofodekkpeab)
 [![Stars](https://img.shields.io/github/stars/YuZh98/latex2arxiv?style=flat-square&logo=github)](https://github.com/YuZh98/latex2arxiv)
 
@@ -52,10 +52,10 @@ An offline, single-file study cockpit for quant-finance interviews — learn, dr
 I am drawn to statistical problems that are at once mathematically challenging and scientifically motivated. In particular, I am interested in both methodology and theory related to **combinatorial problems and structured data**, such as clustering, variable selection, and integer-valued data under combinatorial constraints (e.g. matching data). I am deeply interested in both method innovation as well as asymptotic theory for statistical and machine learning methods. Below are some of my research code repositories. For more on my research and useful resources, see my [personal website](https://yuzh98.github.io/).
 
 ### [combreg](https://github.com/YuZh98/combreg):
-An R package for Bayesian regression for response data that are integer-valued vectors constrained to an integral polytope. The package implements the MH-Within-Gibbs sampler of [Zheng, Ghosh & Duan (2026+)](https://arxiv.org/abs/2504.11630), with hit-and-run dual updates in C++ (OpenMP-parallel across observations), an unconstrained probit baseline, one-call benchmarking, MCMC and regression diagnostics, and utilities for constraint validation and data simulation. 
+An R package for Bayesian regression for response data that are integer-valued vectors constrained to an integral polytope. The package implements the MH-Within-Gibbs sampler of [Zheng, Ghosh & Duan (JASA 2026)](https://doi.org/10.1080/01621459.2026.2714575), with hit-and-run dual updates in C++ (OpenMP-parallel across observations), an unconstrained probit baseline, one-call benchmarking, MCMC and regression diagnostics, and utilities for constraint validation and data simulation. 
 
 ### [combinatorial-regression](https://github.com/YuZh98/combinatorial-regression):
-A multi-language reproducibility pipeline for [Zheng, Ghosh & Duan (2026+)](https://arxiv.org/abs/2504.11630), with R + Rcpp inner loops, JAX/NumPyro baselines, and Makefile-orchestrated. The pipeline reproduces the numerical results and figures in the paper.
+A multi-language reproducibility pipeline for [Zheng, Ghosh & Duan (JASA 2026)](https://doi.org/10.1080/01621459.2026.2714575), with R + Rcpp inner loops, JAX/NumPyro baselines, and Makefile-orchestrated. The pipeline reproduces the numerical results and figures in the paper.
 
 ### [Anti-correlation-Gaussian](https://github.com/YuZh98/Anti-correlation-Gaussian):
 Code accompanying the paper [Zheng & Duan (2025)](https://arxiv.org/abs/2309.09371) for implementation of a blocked Gibbs sampler using anti-correlation Gaussian data augmentation on a variable selection example, plus extensions to sampling from truncated multivariate Gaussian distributions.
